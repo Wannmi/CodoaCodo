@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: inline;
+    /*align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;*/
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*Porque no me los lleva hacia los costados? */
+}
+
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border: solid 1px #333;
+    height: 100vh; /*Hacer calc(100vh - alto del header)*/
+    width: 100%;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border: solid 1px #333;
+    height: 300px;
+    width: 100%;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border: solid 1px #333;
+    height: 300px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    border: solid 1px #333;
+    height: 75px;
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    /* Styles */
+}
+
+@media screen and (min-width: 992px) {
+    /* Styles */
+}
