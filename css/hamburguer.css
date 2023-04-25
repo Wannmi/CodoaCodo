@@ -24,13 +24,17 @@
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #fff;
-    width: 100%;
+    /*background-color: #fff;*/
+    background: rgba(0, 0, 0, 0.50);
+    width: 100vw;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
     box-shadow:
         0 10px 27px rgba(0, 0, 0, 0.05);
+}
+.nav-menu a{
+    color: beige;
 }
 
 .nav-menu.active {

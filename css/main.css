@@ -22,6 +22,11 @@ a{
 /* fin Reset */
 
 /* Header */
+.container-main{
+    background-color: aqua;
+    position: relative;
+    height: 100vh;
+}
 
 header{
     display: flex;
@@ -30,36 +35,19 @@ header{
     height: 5rem;
     padding: 0 1rem;
     background: transparent;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 100;
+    width: 100%;
 }
 
-/* ------ */
-.container-main{
-    position: relative;
-}
-.section1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   /* background-image: url(img/main-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  /*  border: solid 1px #333;*/
-    height: 100vh; /*Hacer calc(100vh - alto del header)*/
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    
-}
-.main-img{
-    width: 100%;
+.container-main img{
     height: 100%;
     object-fit: cover;
 }
+/* ------ */
+
 .section2{
     display: flex;
     justify-content: center;
