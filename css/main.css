@@ -29,71 +29,17 @@ header{
     justify-content: space-between;
     height: 5rem;
     padding: 0 1rem;
-}
-
-.brand{
-    display: flex;
-    gap: 10px;
-}
-
-/* ---- Menu */
-/*
-.hamburger {
-    display: none;
-}*/
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-}
-
-.nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    background-color: #fff;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow:
-        0 10px 27px rgba(0, 0, 0, 0.05);
-}
-
-.nav-menu.active {
+    background: transparent;
+    position: relative;
+    top: 0;
     left: 0;
-}
-
-.nav-item {
-    margin: 2.5rem 0;
-}
-
-.hamburger {
-    display: block;
-    cursor: pointer;
+    z-index: 100;
 }
 
 /* ------ */
-.hamburger.active .bar:nth-child(2) {
-    opacity: 0;
+.container-main{
+    position: relative;
 }
-
-.hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-}
-
-/* ------ */
-
 .section1{
     display: flex;
     justify-content: center;
@@ -104,6 +50,10 @@ header{
   /*  border: solid 1px #333;*/
     height: 100vh; /*Hacer calc(100vh - alto del header)*/
     width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
 }
 .main-img{
     width: 100%;
@@ -116,7 +66,7 @@ header{
     align-items: center;
     background-color: bisque;
     border: solid 1px #333;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 .section3{
@@ -125,7 +75,7 @@ header{
     align-items: center;
     background-color: bisque;
     border: solid 1px #333;
-    height: 300px;
+    height: 500px;
     width: 100%;
 }
 footer{
@@ -134,7 +84,7 @@ footer{
     align-items: center;
     background-color: palevioletred;
     border: solid 1px #333;
-    height: 75px;
+    height: 750px;
     width: 100%;
 }
 /*@media screen and (min-width: 768px) {
