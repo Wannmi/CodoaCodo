@@ -28,13 +28,14 @@ a{
     height: 100vh;
 }
 
-header{
+.header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 5rem;
     padding: 0 1rem;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.10);
+    /*background: transparent;*/    
     position: absolute;
     top: 0;
     left: 0;
@@ -48,26 +49,61 @@ header{
     object-fit: cover;
     object-position: center;
 }
+
+.footer-main{
+    position: absolute;
+    bottom: 0;
+    margin: 2em 5em;
+}
+
 /* ------ */
 
 .section2{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: bisque;
     border: solid 1px #333;
-    height: 400px;
+    min-height: 300px;
     width: 100%;
+    padding: 2em 4em;
 }
+
+.section2 h2{
+    margin: 2em 0;
+}
+
+        /* -------- */
+
 .section3{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
     background-color: bisque;
     border: solid 1px #333;
-    height: 500px;
     width: 100%;
+    padding: 2em 4em;
 }
+
+.section3 .card{
+    background-color: darkolivegreen;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.section3 .card img{
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+
+}
+        /* -------- */
 footer{
     display: flex;
     justify-content: center;
