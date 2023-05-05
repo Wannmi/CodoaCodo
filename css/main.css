@@ -51,9 +51,11 @@ a{
 }
 
 .footer-main{
+    color: darkolivegreen;
     position: absolute;
     bottom: 0;
     margin: 2em 5em;
+  /*  text-shadow: 4px 3px 6px rgba(255,255,255,1);*/
 }
 
 /* ------ */
@@ -118,13 +120,42 @@ footer{
 footer ul{
     display: flex;
 }
-/*@media screen and (min-width: 768px) {
-    /* Styles */
 
+
+@media screen and (min-width: 768px) {
+ 
+.container-main{
+    color: white;
+}
+.header{
+    display: inline;
+    padding: 0;
+
+}
 /*
-}*/
+.brand{
+    
+}
+.section3{
+    display: inline-block;
+}
+.section3 .card:nth-child(odd){
+    float: right;
+    width: 75%;
+}
+
+.section3 .card:nth-child(even){
+    float: left;
+    width: 75%;
+}
+*/
+}
 
 @media screen and (min-width: 992px) {
+    .container-main{
+        color: red;
+    }
+
     .hamburger {
         display: none;
     }
