@@ -7,9 +7,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
 
-}
+} */
 
 li{
     list-style: none;
@@ -159,4 +159,54 @@ footer ul{
     .hamburger {
         display: none;
     
+}}
+
+
+/* Muebles */
+h2{
+    font-size: 30px;
+    padding: 10px 0 0 10px;
+}
+.muebles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+
+
+}
+
+.mueble{
+    margin: 1px;
+}
+
+/* .mesas{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin: 10px; 
+    align-items: center;
+
+} */
+
+/* .mesa {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+
+.mueble img {
+    width: 80%;
+    /* height: 180px; */
+}
+
+
+/* .muebles img:hover {
+    image-rendering:-moz-crisp-edges;
+} */
+
+.mueble h3 {
+    font-size: 20px;
+    margin: 10px 0;
 }
