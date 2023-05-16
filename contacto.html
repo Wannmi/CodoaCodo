@@ -42,10 +42,53 @@
         <img src="img/main-background.jpg" alt="main-background">
     </div>
 
-    <section>
-        <h3>CONTENIDO</h3>
+    <!-- comienzo formulario -->
+    <section class="formulario">
+                
+        <form action="" method="post">
+    
+            <div class="ayuda">
+                <p>¿Como podemos ayudarte?
+                    
+                    <select name="tipo-contacto" id="tipo-contacto">
+                        <option>Informacion general</option>
+                        <option>Informacion de producto</option>
+                        <option>Profesionales del diseño</option>
+                        <option>Asistencia posventa</option>
+                        <option>Prensa y medios</option>
+                    </select>
+                </p>
+            </div>
+            <div class="interior-formulario-1">
+                <p>
+                    <label for="name"></label>
+                    <input type="text" name="nombre" id="name" required placeholder="Nombre">
+                </p>
+                <p>
+                    <label for="surname"></label>
+                    <input type="text" name="apellido" id="surname" required placeholder="Apellido">
+                </p>
+                <p>
+                    <label for="mail"></label>
+                    <input type="email" name="correo" id=" mail" required placeholder="Correo electrónico">
+                </p>
+                <!-- no encuentro como  hacer que me marque error cuando pongo letras en el telefono?? -->
+                <p>
+                    <label for="phone"></label>
+                    <input type="tel" name="telefono" id="phone" required placeholder="Número de teléfono">
+                </p>
+                <p>
+                    <label for="message"></label>
+                    <textarea name="mensaje" id="message" required placeholder="Mensaje" cols="30" rows="5"></textarea>
+                </p>
+                <button>
+                    <input type="submit" value="Enviar consulta">
+                </button>
+            </div>
+    
+        </form>
     </section>
-
+     <!-- fin formulario -->
     <footer>
         <h3>Mobiliario Selecto</h3>
         <section class="redes">
