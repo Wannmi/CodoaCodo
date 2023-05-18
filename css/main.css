@@ -1,12 +1,19 @@
 
 /* 
     Colores
+    
 Moongose: #B8A78D
 Black Olive: #30371A
 Paarl: #9B6B2D
 Walnut: #773F1E
 
 */
+:root {
+    --Moongose: #B8A78D;
+    --Black_Olive: #30371A;
+    --Paarl: #9B6B2D;
+    --Walnut: #773F1E;
+  }
 /* Reset */
 
 *{
@@ -51,7 +58,13 @@ a{
     width: 100%;
 }
 
-.container-main img{
+.logo{
+    width: 70px;  
+}
+.brand h1{
+    margin: auto 5px auto 25px;
+}
+.imgBack{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -138,7 +151,17 @@ footer ul{
 .header{
     display: inline;
     padding: 0;
-
+    background: var(--Moongose);
+}
+.logo{
+    margin-left: 1em;
+}
+.brand h1{
+    margin: auto;
+    font-size: 2.5em;
+}
+.nav-menu{
+    background: var(--Moongose);
 }
 /*
 .brand{
@@ -161,10 +184,13 @@ footer ul{
 
 @media screen and (min-width: 992px) {
     .container-main{
-        color: red;
+        color: var(--Walnut);
     }
 
     .hamburger {
         display: none;
-    
+    }
+    .brand h1{
+        font-size: 3em;
+    }
 }

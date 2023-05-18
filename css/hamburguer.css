@@ -66,6 +66,7 @@
         display: none;
     }
     .nav-menu{
+        background: var(--Moongose);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -86,6 +87,6 @@
         color: black;*/
     }
     .nav-item a:hover{
-        color: darkolivegreen;
+        color: var(--Black_Olive);
     }
 }
