@@ -8,6 +8,11 @@ Paarl: #9B6B2D
 Walnut: #773F1E
 
 */
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;500;600&display=swap');
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Noto Sans Display', sans-serif; */
+
 :root {
     --Moongose: #B8A78D;
     --Black_Olive: #30371A;
@@ -21,9 +26,11 @@ Walnut: #773F1E
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+body{
+    font-family: 'Oswald', sans-serif;
 }
 
 li{
@@ -38,7 +45,6 @@ a{
 
 /* Header */
 .container-main{
-    background-color: aqua;
     position: relative;
     height: 100vh;
 }
@@ -50,7 +56,6 @@ a{
     height: 5rem;
     padding: 0 1rem;
     background: rgba(0, 0, 0, 0.10);
-    /*background: transparent;*/    
     position: absolute;
     top: 0;
     left: 0;
@@ -62,6 +67,7 @@ a{
     width: 70px;  
 }
 .brand h1{
+    font-family:'Times New Roman', Times, serif;
     margin: auto 5px auto 25px;
 }
 .imgBack{
@@ -72,7 +78,7 @@ a{
 }
 
 .footer-main{
-    color: darkolivegreen;
+    color: darkolivegreen; 
     position: absolute;
     bottom: 0;
     margin: 2em 5em;
@@ -82,12 +88,13 @@ a{
 /* ------ */
 
 .section2{
+    color:var(--Walnut);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: bisque;
-    border: solid 1px #333;
+    background-color: var(--Moongose);
+    /*border: solid 1px #333;*/
     min-height: 300px;
     width: 100%;
     padding: 2em 4em;
@@ -105,14 +112,15 @@ a{
     align-items: center;
     flex-direction: column;
     gap: 1.5em;
-    background-color: bisque;
-    border: solid 1px #333;
+    background-color: var(--Moongose);
+    /*border: solid 1px #333;*/
     width: 100%;
     padding: 2em 4em;
 }
 
 .section3 .card{
-    background-color: darkolivegreen;
+    color: beige;
+    background-color: var(--Black_Olive);
     border-radius: 0.5em;
     padding: 1em;
 }
@@ -128,14 +136,15 @@ a{
 }
         /* -------- */
 footer{
+    border-top: 6px double rgba(0,0,0,0.75);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1em;
     padding: 1em;
-    background-color: palevioletred;
-    border: solid 1px #333;
+    background-color: var(--Paarl);
+    /* border-top: solid 3px var(--Black_Olive);*/
     width: 100%;
 }
 footer ul{
@@ -163,6 +172,19 @@ footer ul{
 .nav-menu{
     background: var(--Moongose);
 }
+
+.nav-menu .display{
+    background: var(--Walnut);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-item a:hover{
+    color: var(--Walnut);
+}
+
+
 /*
 .brand{
     
