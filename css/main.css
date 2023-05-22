@@ -1,4 +1,3 @@
-
 /* 
     Colores
     
@@ -9,49 +8,52 @@ Walnut: #773F1E
 
 */
 
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;500;600&display=swap');
-  /* font-family: 'Oswald', sans-serif; */
-  /* font-family: 'Noto Sans Display', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;500;600&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Noto Sans Display', sans-serif; */
 
 :root {
     --Moongose: #B8A78D;
     --Black_Olive: #30371A;
     --Paarl: #9B6B2D;
     --Walnut: #773F1E;
-  }
+}
+
 /* Reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     /*font-family: 'Courier New', Courier, monospace;*/
 }
-body{
+
+body {
     font-family: 'Oswald', sans-serif;
     background-color: #ead8bd;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* fin Reset */
 
 /* Header */
-.container-main{
+.container-main {
     position: relative;
     height: 100vh;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,34 +67,43 @@ a{
     width: 100%;
 }
 
-.logo{
-    width: 70px;  
+.logo {
+    width: 70px;
 }
-.brand h1{
-    font-family:'Times New Roman', Times, serif;
+
+.brand h1 {
+    font-family: 'Times New Roman', Times, serif;
     margin: auto 5px auto 25px;
 }
-.imgBack{
+
+.imgBack {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.footer-main{
-    color: darkolivegreen; 
+.footer-main {
+    color: darkolivegreen;
     position: absolute;
     bottom: 0;
     margin: 2em 5em;
-    background-color: rgba(184,167,141,0.3);
+    background-color: rgba(184, 167, 141, 0.3);
     padding: 5px;
     border-radius: 5px;
     text-align: center;
-  /*  text-shadow: 4px 3px 6px rgba(255,255,255,1);*/
+    /*  text-shadow: 4px 3px 6px rgba(255,255,255,1);*/
 }
-/*  ------- */
 
-.artColeccion{
+/*  ------- */
+.artText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.artColeccion {
     background-color: snow;
     height: 50vh;
     display: flex;
@@ -100,63 +111,72 @@ a{
     align-items: center;
     justify-content: center;
 }
-.artColeccion img{
+
+.artColeccion img {
     height: 65%;
     margin: 0.5em;
     border-radius: 10%;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
-.artColeccion button{
+
+.artColeccion button {
     padding: 5px;
     width: 50%;
     border-radius: 5px;
     border: 2px solid #B8A78D;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
-.artColeccion a{
+
+.artColeccion a {
     font-size: 1.2em;
     font-weight: 600;
     color: #30371A;
 }
-.artColeccion h2{
+
+.artColeccion h2 {
     margin: 0.5em 0 0.5em;
 }
 
 /*      ---     */
-.artProductos{
+.artProductos {
     height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.artProductos img{
+
+.artProductos img {
     height: 60%;
     margin: 0.5em;
     border-radius: 10%;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
-.artProductos h2{
+
+.artProductos h2 {
     margin: 0.5em 0 0.5em;
 }
-.artProductos p{
+
+.artProductos p {
     margin-bottom: 0.5em;
 }
-.artProductos button{
+
+.artProductos button {
     padding: 5px;
     width: 50%;
     border-radius: 5px;
     border: 2px solid #B8A78D;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
-.artProductos a{
+
+.artProductos a {
     font-size: 1.2em;
     font-weight: 600;
     color: #30371A;
 }
 
 /*      ----    */
-.artNosotros{
+.artNosotros {
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -164,28 +184,33 @@ a{
     justify-content: center;
     background-color: snow;
 }
-.artNosotros img{
+
+.artNosotros img {
     height: 45%;
     margin: 0.5em;
     border-radius: 10%;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
-.artNosotros h2{
+
+.artNosotros h2 {
     margin: 0.5em 0 0.5em;
 }
-.artNosotros p{
+
+.artNosotros p {
     margin-bottom: 0.5em;
     text-align: center;
 }
-.artNosotros button{
+
+.artNosotros button {
     padding: 5px;
     width: 50%;
     border-radius: 5px;
     border: 2px solid #B8A78D;
     /* background-color: #ead8bd;*/
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
-.artNosotros a{
+
+.artNosotros a {
     font-size: 1.2em;
     font-weight: 600;
     color: #30371A;
@@ -241,9 +266,9 @@ a{
 
         }
     */
-        /* -------- */
-footer{
-    border-top: 6px double rgba(0,0,0,0.75);
+/* -------- */
+footer {
+    border-top: 6px double rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,93 +281,128 @@ footer{
     width: 100%;
 }
 
-.redes ion-icon{
+.redes ion-icon {
     margin: 3px;
     color: var(--Black_Olive);
     font-size: 2em;
 }
 
-.info-footer h3{
+.info-footer h3 {
     margin-bottom: 1.2em;
 }
 
-.redes h4{
+.redes h4 {
     margin-bottom: 1em;
 }
 
-.legal{
+.legal {
     margin-top: 1.2em;
 }
 
 
 @media screen and (min-width: 768px) {
- 
-.container-main{
-    color: white;
-}
-.header{
-    display: inline;
-    padding: 0;
-    background: var(--Moongose);
-}
-.logo{
-    margin-left: 1em;
-}
-.brand h1{
-    margin: auto;
-    font-size: 2.5em;
-}
-.nav-menu{
-    background: var(--Moongose);
-}
 
-.nav-menu .display{
-    background: var(--Walnut);
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    padding: 5px 10px;
-    border-radius: 10px;
-}
+    .container-main {
+        color: white;
+    }
 
-.nav-item a:hover{
-    color: var(--Walnut);
-}
+    .header {
+        display: inline;
+        padding: 0;
+        background: var(--Moongose);
+    }
 
-.footer-page{
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-}
-.legal{
-    margin-left: 50px;
-}
-/*
-.brand{
-    
-}
-.section3{
-    display: inline-block;
-}
-.section3 .card:nth-child(odd){
-    float: right;
-    width: 75%;
-}
+    .logo {
+        margin-left: 1em;
+    }
 
-.section3 .card:nth-child(even){
-    float: left;
-    width: 75%;
-}
-*/
+    .brand h1 {
+        margin: auto;
+        font-size: 2.5em;
+    }
+
+    .nav-menu {
+        background: var(--Moongose);
+    }
+
+    .nav-menu .display {
+        background: var(--Walnut);
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .nav-item a:hover {
+        color: var(--Walnut);
+    }
+    /*      --      */
+    .sectionMain p{
+        margin: 1.5em 0;
+    }
+    .sectionMain button{
+        margin-top: 2em;
+        width: 250px;
+    }
+    .artColeccion{
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .artColeccion img{
+        height: 75%;
+    }
+
+    .artProductos{
+        flex-direction: row-reverse;
+        padding: 10px;
+    }
+
+    .artProductos img{
+        height: 75%;
+    }
+
+    .artNosotros{
+        flex-direction: row;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .artNosotros img{
+        height: 75%;
+    }
+    /*      --      */
+    .footer-page {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+
+    .legal {
+        margin-left: 50px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
-    .container-main{
+    .container-main {
         color: var(--Walnut);
     }
 
     .hamburger {
         display: none;
     }
-    .brand h1{
+
+    .brand h1 {
         font-size: 3em;
+    }
+
+    .artColeccion{
+        padding: 0 12vw;
+    }
+    .artProductos{
+        padding: 0 12vw;
+    }
+    .artNosotros{
+        padding: 0 12vw;
     }
 }
