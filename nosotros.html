@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/hamburguer.css">
+    <link rel="stylesheet" href="css/nosotros.css">
 
     <title>Mobiliario Selecto</title>
 </head>
@@ -15,13 +16,13 @@
     <div class="container-main">
         <header class="header">
             <div class="brand">
-                <img src="ads" alt="Logo">
+                <img class="logo" src="/CodoaCodo/img/Logo.png" alt="Logo">
                 <h1>Mobiliario Selecto</h1>
             </div>
             <nav>
                 <ul class="nav-menu">
                     <li class="nav-item"><a href="index.html">Home</a></li>
-                    <li class="nav-item"><a href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item display"><a href="nosotros.html">Nosotros</a></li>
                     <li class="nav-item"><a href="muebles.html">Muebles</a></li>
                     <li class="nav-item"><a href="preguntas.html">Preguntas frecuentes</a></li>
                     <li class="nav-item"><a href="contacto.html">Contacto</a></li>
@@ -33,42 +34,72 @@
                 <span class="bar"></span>
             </div>
         </header>
-        <!--
-            footer main e img no van en las demas paginas
-        -->
         <div class="footer-main">
             <h3>Creando hogares únicos y acogedores</h3>
         </div>
-        <img src="img/main-background.jpg" alt="main-background">
+        <img class="imgBack" src="img/main-background.jpg" alt="main-background">
     </div>
 
-    <section>
-        <h3>CONTENIDO</h3>
+    <section class="nosotros">
+        <h2>Acerca de Mobiliario Selecto</h2>
+        <div class="parrafo izq">
+            <img src="img/historia/historia01.jpg" alt="#" class="insert">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloribus magnam sed in asperiores vitae
+                expedita esse fuga blanditiis itaque. Accusantium facere itaque placeat natus distinctio asperiores
+                explicabo, similique at dolorem totam fugit quos magnam doloremque hic? Voluptate doloribus excepturi at
+                perspiciatis, atque quam mollitia quasi, odio, totam magni inventore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi earum repellendus eius quisquam
+                laborum
+                nihil placeat debitis, incidunt saepe fugit laudantium quia distinctio at rem libero qui iure veritatis
+                provident?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, provident animi atque eos quod veniam quo
+                dicta. Accusantium eius obcaecati aperiam eos aspernatur ducimus numquam error. Ducimus voluptas officia
+                odio!</p>
+        </div>
+        <h3>Historia</h3>
+        <div class="parrafo der">
+            <img src="img/historia/historia03.jpg" alt="#" class="insert">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit consequatur quia accusantium nulla
+                vitae blanditiis dolorum quos repellat cum suscipit tempora ipsa eligendi fuga assumenda enim, voluptas
+                praesentium perferendis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsa hic quod vitae! Doloribus
+                exercitationem
+                eveniet repellat, excepturi dignissimos et quos, quasi harum adipisci aliquam laboriosam incidunt cum
+                ipsam
+                unde.</p>
+        </div>
+        <h3>Medio Ambiente</h3>
+        <div class="parrafo izq">
+            <img src="img/historia/historia02.jpg" alt="#" class="insert">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cum rerum voluptates fugit iste magni
+                voluptas velit aliquid reprehenderit, facere autem libero unde, illum a? Animi sequi quos vitae quod!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae iure non explicabo, quisquam aperiam
+                est
+                fuga dicta nisi, sed, itaque ut tempora consequatur consectetur dolor. Quos, omnis. Doloremque,
+                possimus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga illum corrupti dolore. Ratione
+                nulla,
+                ipsa quo debitis hic, placeat, ullam quidem doloremque saepe facilis porro blanditiis. Recusandae, error
+                placeat!
+            </p>
+        </div>
     </section>
 
-    <footer>
-        <h3>Mobiliario Selecto</h3>
-        <section class="redes">
-            <a href="#"><img src="" alt="instagram"></a>
-            <a href="#"><img src="" alt="Facebook"></a>
-            <a href="#"><img src="" alt="vsco"></a>
-            <a href="#"><img src="" alt="linkedin"></a>
+    <footer class="footer-page">
+        <div class="info-footer">
+            <h3>Mobiliario Selecto</h3>
+            <section class="redes">
+                <h4>Seguinos en:</h4>
+                <a href="instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </section>
+        </div>
+        <section class="legal"> 2022 - 2023 Mobiliario Selecto - Todos los derechos reservados
         </section>
-        <section class="web-map">
-            <ul class="">
-                <li class=""><a href="index.html">Home</a></li>
-                <li class=""><a href="nosotros.html">Nosotros</a></li>
-                <li class=""><a href="muebles.html">Muebles</a></li>
-                <li class=""><a href="preguntas.html">Preguntas frecuentes</a></li>
-                <li class=""><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <!--
-                Nose, son ideas como para agregar al footer
-            -->
-        </section>
-        <section class="legal"> copyright 2023 <!-- Idea: agregar legales --> </section>
     </footer>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="scripts.js"></script>
 </body>
 

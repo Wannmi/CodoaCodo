@@ -305,33 +305,27 @@ footer {
     .container-main {
         color: white;
     }
-
     .header {
         display: inline;
         padding: 0;
         background: var(--Moongose);
     }
-
     .logo {
         margin-left: 1em;
     }
-
     .brand h1 {
         margin: auto;
         font-size: 2.5em;
     }
-
     .nav-menu {
         background: var(--Moongose);
     }
-
     .nav-menu .display {
         background: var(--Walnut);
         box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
         padding: 5px 10px;
         border-radius: 10px;
     }
-
     .nav-item a:hover {
         color: var(--Walnut);
     }
@@ -347,26 +341,21 @@ footer {
         flex-direction: row;
         padding: 10px;
     }
-
     .artColeccion img{
         height: 75%;
     }
-
     .artProductos{
         flex-direction: row-reverse;
         padding: 10px;
     }
-
     .artProductos img{
         height: 75%;
     }
-
     .artNosotros{
         flex-direction: row;
         padding: 10px;
         text-align: center;
     }
-
     .artNosotros img{
         height: 75%;
     }
@@ -376,7 +365,6 @@ footer {
         flex-direction: row;
         align-items: end;
     }
-
     .legal {
         margin-left: 50px;
     }
@@ -387,15 +375,12 @@ footer {
     .container-main {
         color: var(--Walnut);
     }
-
     .hamburger {
         display: none;
     }
-
     .brand h1 {
         font-size: 3em;
     }
-
     .artColeccion{
         padding: 0 12vw;
     }
