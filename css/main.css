@@ -167,11 +167,12 @@ h2{
     font-size: 30px;
     padding: 10px 0 0 10px;
 }
+
 .muebles{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1em;
-
+    align-items: center;
 
 }
 
@@ -179,26 +180,31 @@ h2{
     margin: 1px;
 }
 
-/* .mesas{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    flex-wrap: wrap;
-    margin: 10px; 
-    align-items: center;
+@media screen and (max-width: 750px) {
+    .muebles{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
-} */
+}
 
-/* .mesa {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-} */
+@media screen and (max-width: 600px) {
+    .muebles{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .muebles{
+        grid-template-columns: 1fr;
+    }
+
+}
+
 
 .mueble img {
     width: 80%;
-    /* height: 180px; */
+    height: auto;
 }
 
 
