@@ -359,9 +359,8 @@ h2{
 
 }
 
-.mueble{
-    margin: 1px;
-}
+
+
 
 @media screen and (max-width: 750px) {
     .muebles{
@@ -384,10 +383,18 @@ h2{
 
 }
 
+.mueble{
+    margin: 1em;
+}
 
 .mueble img {
     width: 80%;
     height: auto;
+    aspect-ratio: 0.75;
+    object-fit: scale-down;
+    border-radius: 0.5cm;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+
 }
 
 
