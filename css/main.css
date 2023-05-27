@@ -415,7 +415,8 @@ h2{
 }
 
 #tipo-contacto {
-    font: cursive ; 
+    font-family: 'Oswald', sans-serif;
+    /*font: cursive ; */
     font-size: 15px;
 }
 
@@ -442,7 +443,7 @@ h2{
     border: 0;  
 }    
 /* cambio de font en textarea . no pude  de  otra manera*/
-
+/*
 ::placeholder {
    font-family: cursive;
-}
+}*/

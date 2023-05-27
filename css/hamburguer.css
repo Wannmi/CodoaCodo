@@ -112,7 +112,7 @@
 }
 
 #tipo-contacto {
-    font-family: cursive; 
+    font-family: 'Oswald', sans-serif;
     font-size: 15px;
 }
 
@@ -139,7 +139,7 @@
     border: 0;  
 }    
 /* cambio de font en textarea . no pude  de  otra manera*/
-
+/*
 ::placeholder {
    font-family: cursive;
-}
+}*/
