@@ -1,41 +1,65 @@
+/* 
+    Colores
+    
+Moongose: #B8A78D
+Black Olive: #30371A
+Paarl: #9B6B2D
+Walnut: #773F1E
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;500;600&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Noto Sans Display', sans-serif; */
+
+:root {
+    --Moongose: #B8A78D;
+    --Black_Olive: #30371A;
+    --Paarl: #9B6B2D;
+    --Walnut: #773F1E;
+}
 
 /* Reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* body{
+body {
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
 
-} */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ead8bd;
+}
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* fin Reset */
 
 /* Header */
-.container-main{
-    background-color: aqua;
+.container-main {
     position: relative;
     height: 100vh;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 5rem;
     padding: 0 1rem;
     background: rgba(0, 0, 0, 0.10);
-    /*background: transparent;*/    
     position: absolute;
     top: 0;
     left: 0;
@@ -43,123 +67,282 @@ a{
     width: 100%;
 }
 
-.container-main img{
+.logo {
+    width: 70px;
+}
+
+.brand h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto 5px auto 25px;
+}
+
+.imgBack {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.footer-main{
+.footer-main {
     color: darkolivegreen;
     position: absolute;
     bottom: 0;
     margin: 2em 5em;
-  /*  text-shadow: 4px 3px 6px rgba(255,255,255,1);*/
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 1);
 }
 
-/* ------ */
-
-.section2{
+/*  ------- */
+.artText{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: bisque;
-    border: solid 1px #333;
-    min-height: 300px;
     width: 100%;
-    padding: 2em 4em;
+}
+.artColeccion {
+    background-color: snow;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.section2 h2{
-    margin: 2em 0;
+.artColeccion img {
+    height: 50%;
+    margin: 0.5em;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
 }
 
-        /* -------- */
+.artColeccion button {
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #B8A78D;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
 
-.section3{
+.artColeccion a {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #30371A;
+}
+
+.artColeccion h2 {
+    margin: 0.5em 0 0.5em;
+}
+
+/*      ---     */
+.artProductos {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artProductos img {
+    height: 50%;
+    margin: 0.5em;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.artProductos h2 {
+    margin: 0.5em 0 0.5em;
+}
+
+.artProductos p {
+    margin-bottom: 0.5em;
+}
+
+.artProductos button {
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #B8A78D;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.artProductos a {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #30371A;
+}
+
+/*      ----    */
+.artNosotros {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: snow;
+}
+
+.artNosotros img {
+    height: 40%;
+    margin: 0.5em;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.artNosotros h2 {
+    margin: 0.5em 0 0.5em;
+}
+
+.artNosotros p {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.artNosotros button {
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #B8A78D;
+    /* background-color: #ead8bd;*/
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.artNosotros a {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #30371A;
+}
+
+/* -------- */
+
+footer {
+    border-top: 6px double rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1.5em;
-    background-color: bisque;
-    border: solid 1px #333;
-    width: 100%;
-    padding: 2em 4em;
-}
-
-.section3 .card{
-    background-color: darkolivegreen;
-    border-radius: 0.5em;
-    padding: 1em;
-}
-
-.section3 .card img{
-    height: auto;
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-
-}
-        /* -------- */
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     gap: 1em;
     padding: 1em;
-    background-color: palevioletred;
-    border: solid 1px #333;
+    background-color: var(--Paarl);
+    color: var(--Moongose);
     width: 100%;
 }
-footer ul{
-    display: flex;
+
+.redes ion-icon {
+    margin: 3px;
+    color: var(--Black_Olive);
+    font-size: 2em;
+}
+
+.info-footer h3 {
+    margin-bottom: 1.2em;
+}
+
+.redes h4 {
+    margin-bottom: 1em;
+}
+
+.legal {
+    margin-top: 1.2em;
 }
 
 
 @media screen and (min-width: 768px) {
- 
-.container-main{
-    color: white;
-}
-.header{
-    display: inline;
-    padding: 0;
 
-}
-/*
-.brand{
-    
-}
-.section3{
-    display: inline-block;
-}
-.section3 .card:nth-child(odd){
-    float: right;
-    width: 75%;
-}
+    .container-main {
+        color: white;
+    }
+    .header {
+        display: inline;
+        padding: 0;
+        background: var(--Moongose);
+    }
+    .logo {
+        margin-left: 1em;
+    }
+    .brand h1 {
+        margin: auto;
+        font-size: 2.5em;
+    }
+    .nav-menu {
+        background: var(--Moongose);
+    }
+    .nav-menu .display {
+        background: var(--Walnut);
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+    .nav-item a:hover {
+        color: var(--Walnut);
+    }
+    /*      --      */
+    .sectionMain p{
+        margin: 1.5em 0;
+    }
+    .sectionMain button{
+        margin-top: 2em;
+        width: 250px;
+    }
+    .artColeccion{
+        flex-direction: row;
+        padding: 10px;
+    }
+    .artColeccion img{
+        height: 75%;
+    }
+    .artProductos{
+        flex-direction: row-reverse;
+        padding: 10px;
+    }
+    .artProductos img{
+        height: 75%;
+    }
+    .artNosotros{
+        flex-direction: row;
+        padding: 10px;
+        text-align: center;
+    }
+    .artNosotros img{
+        height: 75%;
+    }
+    /*      --      */
+    .footer-page {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    .legal {
+        margin-left: 50px;
+    }
 
-.section3 .card:nth-child(even){
-    float: left;
-    width: 75%;
-}
-*/
 }
 
 @media screen and (min-width: 992px) {
-    .container-main{
-        color: red;
+    .container-main {
+        color: var(--Walnut);
     }
-
     .hamburger {
         display: none;
+    }
+    .brand h1 {
+        font-size: 3em;
+    }
+    .artColeccion{
+        padding: 0 12vw;
+    }
+    .artProductos{
+        padding: 0 12vw;
+    }
+    .artNosotros{
+        padding: 0 12vw;
+    }
     
-}}
+}
 
 
 /* Muebles */
@@ -216,3 +399,57 @@ h2{
     font-size: 20px;
     margin: 10px 0;
 }
+
+/* codigo pagina contacto */
+/* podria ponerlo en section 2 para no repetir codigo */
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: solid 1px #333;
+    min-height: 300px;
+    width: 100%;
+    padding: 2em 4em;
+}
+
+
+.ayuda {
+    padding: 5px 0 40px;
+    font-size: 25px;
+}
+
+#tipo-contacto {
+    font-family: 'Oswald', sans-serif;
+    /*font: cursive ; */
+    font-size: 15px;
+}
+
+.interior-formulario-1 input,
+.interior-formulario-1 textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color:gray;
+    font-size: 15px;
+  border-bottom: 1.5px solid grey;
+}
+
+.interior-formulario-1 button{
+    width: 100%;
+}
+
+/* cambio de color boton envio consulta */
+
+.interior-formulario-1 button {
+    background: darkolivegreen;
+    border: 0;  
+}    
+/* cambio de font en textarea . no pude  de  otra manera*/
+/*
+::placeholder {
+   font-family: cursive;
+}*/

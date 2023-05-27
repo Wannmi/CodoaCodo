@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/hamburguer.css">
-
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>Mobiliario Selecto</title>
 </head>
 
@@ -15,7 +15,7 @@
     <div class="container-main">
         <header class="header">
             <div class="brand">
-                <img src="ads" alt="Logo">
+                <img class="logo" src="/CodoaCodo/img/Logo.png" alt="Logo">
                 <h1>Mobiliario Selecto</h1>
             </div>
             <nav>
@@ -24,7 +24,7 @@
                     <li class="nav-item"><a href="nosotros.html">Nosotros</a></li>
                     <li class="nav-item"><a href="muebles.html">Muebles</a></li>
                     <li class="nav-item"><a href="preguntas.html">Preguntas frecuentes</a></li>
-                    <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+                    <li class="nav-item display"><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
             <div class="hamburger">
@@ -33,42 +33,74 @@
                 <span class="bar"></span>
             </div>
         </header>
-        <!--
-            footer main e img no van en las demas paginas
-        -->
         <div class="footer-main">
             <h3>Creando hogares únicos y acogedores</h3>
         </div>
-        <img src="img/main-background.jpg" alt="main-background">
+        <img class="imgBack" src="img/main-background.jpg" alt="main-background">
     </div>
 
-    <section>
-        <h3>CONTENIDO</h3>
+    <!-- comienzo formulario -->
+    <section class="formulario">
+                
+        <form action="" method="post">
+    
+            <div class="ayuda">
+                <p>¿Como podemos ayudarte?
+                    
+                    <select name="tipo-contacto" id="tipo-contacto">
+                        <option>Informacion general</option>
+                        <option>Informacion de producto</option>
+                        <option>Profesionales del diseño</option>
+                        <option>Asistencia posventa</option>
+                        <option>Prensa y medios</option>
+                    </select>
+                </p>
+            </div>
+            <div class="interior-formulario-1">
+                <p>
+                    <label for="name"></label>
+                    <input type="text" name="nombre" id="name" required placeholder="Nombre">
+                </p>
+                <p>
+                    <label for="surname"></label>
+                    <input type="text" name="apellido" id="surname" required placeholder="Apellido">
+                </p>
+                <p>
+                    <label for="mail"></label>
+                    <input type="email" name="correo" id=" mail" required placeholder="Correo electrónico">
+                </p>
+                <!-- no encuentro como  hacer que me marque error cuando pongo letras en el telefono?? -->
+                <p>
+                    <label for="phone"></label>
+                    <input type="tel" name="telefono" id="phone" required placeholder="Número de teléfono">
+                </p>
+                <p>
+                    <label for="message"></label>
+                    <textarea name="mensaje" id="message" required placeholder="Mensaje" cols="30" rows="5"></textarea>
+                </p>
+                <button>
+                    <input type="submit" value="Enviar consulta">
+                </button>
+            </div>
+    
+        </form>
     </section>
 
-    <footer>
-        <h3>Mobiliario Selecto</h3>
-        <section class="redes">
-            <a href="#"><img src="" alt="instagram"></a>
-            <a href="#"><img src="" alt="Facebook"></a>
-            <a href="#"><img src="" alt="vsco"></a>
-            <a href="#"><img src="" alt="linkedin"></a>
+    <footer class="footer-page">
+        <div class="info-footer">
+            <h3>Mobiliario Selecto</h3>
+            <section class="redes">
+                <h4>Seguinos en:</h4>
+                <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </section>
+        </div>
+        <section class="legal"> 2022 - 2023 Mobiliario Selecto - Todos los derechos reservados
         </section>
-        <section class="web-map">
-            <ul class="">
-                <li class=""><a href="index.html">Home</a></li>
-                <li class=""><a href="nosotros.html">Nosotros</a></li>
-                <li class=""><a href="muebles.html">Muebles</a></li>
-                <li class=""><a href="preguntas.html">Preguntas frecuentes</a></li>
-                <li class=""><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <!--
-                Nose, son ideas como para agregar al footer
-            -->
-        </section>
-        <section class="legal"> copyright 2023 <!-- Idea: agregar legales --> </section>
     </footer>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="scripts.js"></script>
 </body>
 
