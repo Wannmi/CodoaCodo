@@ -30,6 +30,10 @@
 @media screen and (min-width: 768px) {
     .parrafo{
         display: inline;
+        font-size: 1.2em;
+    }
+    .parrafo p{
+        margin-top: 1.5em;
     }
     .nosotros .izq img{
         float: left;
@@ -47,5 +51,8 @@
     .nosotros{
         max-width: 70vw;
         margin: 0 auto;
+    }
+    .parrafo p{
+        margin-top: 2em;
     }
 }
