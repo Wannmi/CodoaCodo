@@ -9,8 +9,6 @@ Walnut: #773F1E
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;500;600&display=swap');
-/* font-family: 'Oswald', sans-serif; */
-/* font-family: 'Noto Sans Display', sans-serif; */
 
 :root {
     --Moongose: #B8A78D;
@@ -25,10 +23,6 @@ Walnut: #773F1E
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    /*font-family: 'Courier New', Courier, monospace;*/
 }
 
 body {
@@ -48,6 +42,7 @@ a {
 
 /* Header */
 .container-main {
+    color: var(--Walnut);
     position: relative;
     height: 100vh;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
@@ -103,6 +98,7 @@ a {
     justify-content: center;
     width: 100%;
 }
+
 .artColeccion {
     background-color: snow;
     height: 55vh;
@@ -254,7 +250,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     .container-main {
-        color: white;
+        color: var(--Walnut);
     }
     .header {
         display: inline;
