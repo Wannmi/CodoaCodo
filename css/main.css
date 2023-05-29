@@ -265,6 +265,7 @@ footer {
 
     .logo {
         margin-left: 1em;
+        box-shadow: 2px 2px 5px rgba(255,255,255,0.4);
     }
 
     .brand h1 {
