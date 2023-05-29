@@ -92,9 +92,107 @@
         color: darkolivegreen;
     }
 }
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: solid 1px #333;
+    min-height: 300px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.ayuda {
+    padding: 1px 0 40px;
+    font-size: 25px;  
+}
+
+select{
+color: #5e5d5d;
+background:none;
+padding: 10px;
+margin: 0 15px;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+#tipo-contacto {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+form{
+    background: none;
+    padding: 20px 0;
+      
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+form .dato {
+position: relative;
+margin: 25px;
+}
+ input, textarea {
+background:none;
+color: #c6c6c6;
+font-size: 18px;
+padding: 10px 10px 10px 5px;
+width: 100%;
+border: none;
+border-bottom: 1.5px solid  #546a2f;
+ }
+
+ input:focus , textarea:focus {
+outline: none;
+color: #5e5d5d;
+ }
+
+ label{
+color: #5e5d5d;
+font-size: 16px;
+position: absolute;
+left: 5px;
+top: 10px;
+transition: 0.5s ease-in-out all;
+pointer-events: none;
+
+ }
+ input:focus~label, textarea:focus~label, 
+ input:valid~label
+ {
+     top: -14px;
+     font-size: 12px;
+     color: #546a2f;
+ }
+
+ button{
+    font-family: 'Oswald', sans-serif;
+    background: #546a2f;  
+ border: none;
+display: block;
+width: 90%;
+margin: 10px auto;
+color: #fff;
+height:  40px;
+font-size: 16Px;
+cursor: pointer;
+
+}
+
+
+
+
 /* copie todo el codigo del main.css aca para  todos los formatos */
 /* codigo pagina contacto */
-.formulario{
+/* .formulario{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,14 +228,14 @@
 
 .interior-formulario-1 button{
     width: 100%;
-}
+} */
 
 /* cambio de color boton envio consulta */
 
-.interior-formulario-1 button {
+/* .interior-formulario-1 button {
     background: darkolivegreen;
     border: 0;  
-}    
+}     */
 /* cambio de font en textarea . no pude  de  otra manera*/
 /*
 ::placeholder {

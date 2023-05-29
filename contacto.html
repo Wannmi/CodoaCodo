@@ -48,6 +48,7 @@
                 <p>¿Como podemos ayudarte?
                     
                     <select name="tipo-contacto" id="tipo-contacto">
+                        <option selected="selected">Elija una opcion</option>
                         <option>Informacion general</option>
                         <option>Informacion de producto</option>
                         <option>Profesionales del diseño</option>
@@ -56,7 +57,35 @@
                     </select>
                 </p>
             </div>
-            <div class="interior-formulario-1">
+            <div class="form">
+                
+                <div class="dato">
+                    <input type="text" name="nombre" id="name" required> 
+                    <label for="name">Nombre</label>
+                </div>
+                <div class="dato">
+                    <input type="text" name="apellido" id="surname" required> 
+                    <label for="surname">Apellido</label>
+                </div>
+                <div class="dato">
+                    <input type="email" name="correo" id="mail" required> 
+                    <label for="mail">Correo Electrónico</label>
+                </div>
+                 <div class="dato">
+                    <input type="tel" name="telefono" id="phne" required> 
+                    <label for="phone">Telefono</label>
+                </div>
+                <div class="dato">
+                <textarea name="mensaje" id="message" cols="30" rows="7"></textarea> 
+                <label for="message">Mensaje</label>
+            </div>
+  
+                <button type="submit">Enviar consulta</button>
+
+            </div>
+
+
+            <!-- <div class="interior-formulario-1">
                 <p>
                     <label for="name"></label>
                     <input type="text" name="nombre" id="name" required placeholder="Nombre">
@@ -68,9 +97,9 @@
                 <p>
                     <label for="mail"></label>
                     <input type="email" name="correo" id=" mail" required placeholder="Correo electrónico">
-                </p>
+                </p> -->
                 <!-- no encuentro como  hacer que me marque error cuando pongo letras en el telefono?? -->
-                <p>
+                <!-- <p>
                     <label for="phone"></label>
                     <input type="tel" name="telefono" id="phone" required placeholder="Número de teléfono">
                 </p>
@@ -81,7 +110,7 @@
                 <button>
                     <input type="submit" value="Enviar consulta">
                 </button>
-            </div>
+            </div> -->
     
         </form>
     </section>
