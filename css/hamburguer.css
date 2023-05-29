@@ -173,7 +173,7 @@ pointer-events: none;
      color: #546a2f;
  }
 
- button{
+ .buttonCont{
     font-family: 'Oswald', sans-serif;
     background: #546a2f;  
  border: none;
