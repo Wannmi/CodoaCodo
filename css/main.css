@@ -409,7 +409,7 @@ h2{
 
 /* codigo pagina contacto */
 /* podria ponerlo en section 2 para no repetir codigo */
-.formulario{
+/* .formulario{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -430,7 +430,7 @@ h2{
 #tipo-contacto {
     font-family: 'Oswald', sans-serif;
     /*font: cursive ; */
-    font-size: 15px;
+    /* font-size: 15px;
 }
 
 .interior-formulario-1 input,
@@ -447,14 +447,14 @@ h2{
 
 .interior-formulario-1 button{
     width: 100%;
-}
+} */ */
 
 /* cambio de color boton envio consulta */
 
-.interior-formulario-1 button {
+/* .interior-formulario-1 button {
     background: darkolivegreen;
     border: 0;  
-}    
+}     */
 /* cambio de font en textarea . no pude  de  otra manera*/
 /*
 ::placeholder {
