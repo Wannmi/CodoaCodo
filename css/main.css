@@ -91,7 +91,7 @@ a {
 }
 
 /*  ------- */
-.artText{
+.artText {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,59 +252,106 @@ footer {
     .container-main {
         color: var(--Walnut);
     }
+
     .header {
         display: inline;
         padding: 0;
         background: var(--Moongose);
     }
+
     .logo {
         margin-left: 1em;
     }
+
     .brand h1 {
         margin: auto;
         font-size: 2.5em;
     }
+
     .nav-menu {
         background: var(--Moongose);
     }
+
     .nav-menu .display {
         background: var(--Walnut);
         box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
         padding: 5px 10px;
         border-radius: 10px;
     }
+
     .nav-item a:hover {
         color: var(--Walnut);
     }
+
     /*      --      */
-    .sectionMain p{
+    .sectionMain p {
         margin: 1.5em 0;
     }
-    .sectionMain button{
+
+    .sectionMain button {
         margin-top: 2em;
         width: 250px;
     }
-    .artColeccion{
+
+    .artColeccion {
         flex-direction: row;
         padding: 10px;
     }
-    .artColeccion img{
+
+    .artColeccion img {
         height: 75%;
     }
-    .artProductos{
+
+    .artColeccion img:hover {
+        height: 80%;
+        transition: 0.5s;
+    }
+
+    .artColeccion button:hover {
+        border: 3px solid var(--Black_Olive);
+        box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+
+    .artProductos {
         flex-direction: row-reverse;
         padding: 10px;
     }
-    .artProductos img{
+
+    .artProductos img {
         height: 75%;
     }
-    .artNosotros{
+
+    .artProductos img:hover {
+        height: 80%;
+        transition: 0.5s;
+    }
+
+    .artProductos button:hover {
+        border: 3px solid var(--Black_Olive);
+        box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+
+    .artNosotros {
         flex-direction: row;
         padding: 10px;
         text-align: center;
     }
-    .artNosotros img{
+
+    .artNosotros img {
         height: 75%;
+    }
+
+    .artNosotros img:hover {
+        height: 80%;
+        transition: 0.5s;
+    }
+
+    .artNosotros button:hover {
+        border: 3px solid var(--Black_Olive);
+        box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
     }
     /*      --      */
     .footer-page {
@@ -312,6 +359,7 @@ footer {
         flex-direction: row;
         align-items: end;
     }
+
     .legal {
         margin-left: 50px;
     }
@@ -322,32 +370,37 @@ footer {
     .container-main {
         color: var(--Walnut);
     }
+
     .hamburger {
         display: none;
     }
+
     .brand h1 {
         font-size: 3em;
     }
-    .artColeccion{
+
+    .artColeccion {
         padding: 0 12vw;
     }
-    .artProductos{
+
+    .artProductos {
         padding: 0 12vw;
     }
-    .artNosotros{
+
+    .artNosotros {
         padding: 0 12vw;
     }
-    
+
 }
 
 
 /* Muebles */
-h2{
+h2 {
     font-size: 30px;
     padding: 10px 0 0 10px;
 }
 
-.muebles{
+.muebles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1em;
@@ -359,27 +412,27 @@ h2{
 
 
 @media screen and (max-width: 750px) {
-    .muebles{
+    .muebles {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
 }
 
 @media screen and (max-width: 600px) {
-    .muebles{
+    .muebles {
         grid-template-columns: 1fr 1fr;
     }
 
 }
 
 @media screen and (max-width: 500px) {
-    .muebles{
+    .muebles {
         grid-template-columns: 1fr;
     }
 
 }
 
-.mueble{
+.mueble {
     margin: 1em;
     display: flex;
     flex-direction: column;
