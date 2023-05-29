@@ -234,6 +234,10 @@ footer {
     font-size: 2em;
 }
 
+.redes ion-icon:hover{
+    color: var(--Moongose);
+}
+
 .info-footer h3 {
     margin-bottom: 1.2em;
 }
