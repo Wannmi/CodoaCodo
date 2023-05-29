@@ -1,0 +1,23 @@
+
+console.log("Hola")
+let image;
+/*fetch("https://api.unsplash.com/photos/?client_id=rv7cdQf0Ip6qEmuZyBfAKM42pHA4cHv_D8NqOWfV5xU")*/
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+fetch("https://api.unsplash.com/search/photos?query=forniture&client_id=rv7cdQf0Ip6qEmuZyBfAKM42pHA4cHv_D8NqOWfV5xU")
+    .then(function (response) {
+        return response.json()
+    })
+    .then(function (data) {
+        console.log(data)
+        /*data.results.forEach(item => {
+            image = `<img src="${item.urls.regular}"/>`
+
+            $("#result").append(image)
+        })*/
+
+        image = `<img src="${data.results[getRandomInt(9)].urls.regular}"/>`
+
+        $("#result").append(image)
+    })
