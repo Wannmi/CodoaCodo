@@ -62,12 +62,13 @@
 
 @media screen and (min-width: 768px) {
 
-    .bar{
+    .bar {
         display: none;
     }
-    .nav-menu{
-        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
-        border-top: 4px double rgba(0,0,0,0.75);
+
+    .nav-menu {
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.75);
+        border-top: 4px double rgba(0, 0, 0, 0.75);
         background: var(--Moongose);
         display: flex;
         flex-direction: row;
@@ -79,21 +80,24 @@
         border-radius: 0px;
         padding-left: 20px;
     }
-    .nav-item{
-        margin: 0;       
+
+    .nav-item {
+        margin: 0;
     }
-    .nav-item a{
- /*       padding: 10px;
+
+    .nav-item a {
+        /*       padding: 10px;
         border-radius: 10px;
         background-color: beige;
         color: black;*/
     }
-    .nav-item a:hover{
+
+    .nav-item a:hover {
         color: darkolivegreen;
     }
 }
 
-.formulario{
+.formulario {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,28 +111,29 @@
 
 .ayuda {
     padding: 1px 0 40px;
-    font-size: 25px;  
+    font-size: 25px;
 }
 
-select{
-color: #5e5d5d;
-background:none;
-padding: 10px;
-margin: 0 15px;
-border-radius: 5px;
-cursor: pointer;
+select {
+    color: #5e5d5d;
+    background: none;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
 
 
 }
+
 #tipo-contacto {
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
 }
 
-form{
+form {
     background: none;
     padding: 20px 0;
-      
+
 }
 
 .form {
@@ -137,54 +142,57 @@ form{
 }
 
 form .dato {
-position: relative;
-margin: 25px;
+    position: relative;
+    margin: 25px;
 }
- input, textarea {
-background:none;
-color: #c6c6c6;
-font-size: 18px;
-padding: 10px 10px 10px 5px;
-width: 100%;
-border: none;
-border-bottom: 1.5px solid  #546a2f;
- }
 
- input:focus , textarea:focus {
-outline: none;
-color: #5e5d5d;
- }
+input,
+textarea {
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid #546a2f;
+}
 
- label{
-color: #5e5d5d;
-font-size: 16px;
-position: absolute;
-left: 5px;
-top: 10px;
-transition: 0.5s ease-in-out all;
-pointer-events: none;
+input:focus,
+textarea:focus {
+    outline: none;
+    color: #5e5d5d;
+}
 
- }
- input:focus~label, textarea:focus~label, 
- input:valid~label
- {
-     top: -14px;
-     font-size: 12px;
-     color: #546a2f;
- }
+label {
+    color: #5e5d5d;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
 
- .buttonCont{
+}
+
+input:focus~label,
+textarea:focus~label,
+input:valid~label {
+    top: -14px;
+    font-size: 12px;
+    color: #546a2f;
+}
+
+.buttonCont {
     font-family: 'Oswald', sans-serif;
-    background: #546a2f;  
- border: none;
-display: block;
-width: 90%;
-margin: 10px auto;
-color: #fff;
-height:  40px;
-font-size: 16Px;
-cursor: pointer;
-
+    background: #546a2f;
+    border: none;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16Px;
+    cursor: pointer;
 }
 
 
