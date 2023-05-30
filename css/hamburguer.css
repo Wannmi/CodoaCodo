@@ -175,7 +175,8 @@ label {
 
 input:focus~label,
 textarea:focus~label,
-input:valid~label {
+input:valid~label,
+textarea:valid~label {
     top: -14px;
     font-size: 12px;
     color: #546a2f;
@@ -193,3 +194,63 @@ input:valid~label {
     font-size: 16Px;
     cursor: pointer;
 }
+
+.advertencia {
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    color: #680909;
+    padding-top: 20px;
+     }
+
+/* copie todo el codigo del main.css aca para  todos los formatos */
+/* codigo pagina contacto */
+/* .formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: solid 1px #333;
+    min-height: 300px;
+    width: 100%;
+    padding: 2em 4em;
+}
+
+.ayuda {
+    padding: 5px 0 40px;
+    font-size: 25px;
+}
+
+#tipo-contacto {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+.interior-formulario-1 input,
+.interior-formulario-1 textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color:gray;
+    font-size: 15px;
+  border-bottom: 1.5px solid grey;
+}
+
+.interior-formulario-1 button{
+    width: 100%;
+} */
+
+/* cambio de color boton envio consulta */
+
+/* .interior-formulario-1 button {
+    background: darkolivegreen;
+    border: 0;  
+}     */
+/* cambio de font en textarea . no pude  de  otra manera*/
+/*
+::placeholder {
+   font-family: cursive;
+}*/
