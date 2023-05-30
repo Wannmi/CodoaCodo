@@ -15,11 +15,11 @@ form.addEventListener("submit", e => {
     let entrar = false
     advertencia.innerHTML =""
     if (nombre.value.length < 3) {
-        warning += 'El nombre no es válido <br>'
+        warning += 'El nombre no es válido - Ingrese más de 3 letras <br>'
         entrar = true;
     }
      if (apellido.value.length < 3) {
-         warning += 'El apellido no es válido <br>'
+         warning += 'El apellido no es válido - Ingrese más de 3 letras <br>'
          entrar = true;
      }
      if (!regexEmail.test(correo.value)) {
@@ -27,7 +27,7 @@ form.addEventListener("submit", e => {
          entrar = true;
      }
       if (!regexTelefono.test(telefono.value)) {
-         warning += 'El teléfono no es válido <br>'
+         warning += 'El teléfono no es válido - Ingrese sólo numeros <br>'
          entrar = true;
       }
               
