@@ -42,7 +42,7 @@
     <!-- comienzo formulario -->
     <section class="formulario">
                 
-        <form action="" method="post">
+        <form action="" method="post" id="form">
     
             <div class="ayuda">
                 <p>¿Como podemos ayudarte?
@@ -60,28 +60,28 @@
             <div class="form">
                 
                 <div class="dato">
-                    <input type="text" name="nombre" id="name" required> 
+                    <input type="text" name="nombre" id="name" > 
                     <label for="name">Nombre</label>
                 </div>
                 <div class="dato">
-                    <input type="text" name="apellido" id="surname" required> 
+                    <input type="text" name="apellido" id="surname" > 
                     <label for="surname">Apellido</label>
                 </div>
                 <div class="dato">
-                    <input type="email" name="correo" id="mail" required> 
+                    <input type="email" name="correo" id="mail" > 
                     <label for="mail">Correo Electrónico</label>
                 </div>
                  <div class="dato">
-                    <input type="tel" name="telefono" id="phne" required> 
+                    <input type="tel" name="telefono" id="phone" > 
                     <label for="phone">Telefono</label>
                 </div>
                 <div class="dato">
-                <textarea name="mensaje" id="message" cols="30" rows="7"></textarea> 
+                <textarea name="mensaje" id="message"  cols="30" rows="7"></textarea> 
                 <label for="message">Mensaje</label>
             </div>
   
                 <button class="buttonCont" type="submit">Enviar consulta</button>
-
+                <div class="advertencia" id="warning"></div>
             </div>
 
 
@@ -131,6 +131,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="/js/validacion.js "></script>
 </body>
 
 </html>
